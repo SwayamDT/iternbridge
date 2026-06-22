@@ -187,7 +187,7 @@
             color: var(--green-brand);
         }
 
-        /* ===== SLIDE 1: THE PROBLEM ===== */
+        /* ===== SLIDE 1: THE CHALLENGE ===== */
         #slide1 {
             background: var(--gradient-1);
             color: #FDFBF7;
@@ -216,7 +216,7 @@
 
         .slide1-title {
             font-family: 'Playfair Display', serif;
-            font-size: 3.2rem;
+            font-size: 3rem;
             font-weight: 900;
             line-height: 1.1;
             margin-bottom: 1rem;
@@ -228,11 +228,24 @@
         }
 
         .slide1-subtitle {
-            font-size: 1.15rem;
+            font-size: 1.1rem;
             opacity: 0.85;
-            max-width: 600px;
+            max-width: 650px;
             line-height: 1.6;
             margin-bottom: 2.5rem;
+        }
+
+        .empathy-quote {
+            background: rgba(253, 251, 247, 0.08);
+            border: 1px solid rgba(253, 251, 247, 0.15);
+            border-radius: 12px;
+            padding: 1.2rem 1.5rem;
+            margin-bottom: 2rem;
+            font-style: italic;
+            font-size: 0.95rem;
+            line-height: 1.6;
+            opacity: 0.9;
+            border-left: 3px solid var(--green-light);
         }
 
         .pain-grid-2col {
@@ -681,62 +694,67 @@
     <!-- Slides Container -->
     <div class="slides-container" id="slidesContainer">
 
-        <!-- ===== SLIDE 1: THE PROBLEM ===== -->
+        <!-- ===== SLIDE 1: THE CHALLENGE ===== -->
         <div class="slide active" id="slide1">
             <div class="slide1-inner">
                 <div class="slide-tag animate-in">
-                    <i class="fas fa-exclamation-triangle"></i>
-                    The Problem
+                    <i class="fas fa-hand-holding-heart"></i>
+                    The Challenge We All Face
                 </div>
                 <h1 class="slide1-title animate-in delay-1">
-                    Interns Join Confused.<br>
-                    <span>Organizations Pay for It.</span>
+                    Our Managers Are Stretched.<br>
+                    <span>Our Interns Deserve Better.</span>
                 </h1>
                 <p class="slide1-subtitle animate-in delay-2">
-                    Every intern batch faces the same invisible gap: no roadmap, no knowledge access, no progress visibility. The cost isn't just time — it's lost talent, frustrated managers, and wasted investment.
+                    We all want our interns to succeed. But with growing workloads and limited bandwidth, even the best-intentioned onboarding process leaves gaps. Here is what we are seeing across the board.
                 </p>
+
+                <div class="empathy-quote animate-in delay-2">
+                    <i class="fas fa-quote-left" style="color: var(--green-light); margin-right: 8px;"></i>
+                    "We have talented interns joining us every batch, but our managers are already at capacity. The result? Interns spend their first weeks figuring things out on their own — and managers wish they could do more."
+                </div>
 
                 <div class="pain-grid-2col">
                     <div class="pain-item animate-in delay-3">
                         <i class="fas fa-map-signs"></i>
                         <div>
-                            <h4>No Structured Roadmap</h4>
-                            <p>Interns spend days waiting for direction instead of contributing. Zero clarity on what to learn, when, or what's expected.</p>
+                            <h4>Unclear Starting Point</h4>
+                            <p>Interns arrive eager but unsure where to begin. Without a shared roadmap, everyone interprets expectations differently.</p>
                         </div>
                     </div>
                     <div class="pain-item animate-in delay-3">
                         <i class="fas fa-user-clock"></i>
                         <div>
                             <h4>Managers Are Overloaded</h4>
-                            <p>Deadlines leave no time for repeated orientation. Interns are left in limbo while managers juggle client work.</p>
+                            <p>Our teams are already managing deadlines and client deliverables. Repeated orientation conversations simply do not fit into packed schedules.</p>
                         </div>
                     </div>
                     <div class="pain-item animate-in delay-4">
                         <i class="fas fa-brain"></i>
                         <div>
-                            <h4>Knowledge Lives in Heads</h4>
-                            <p>Critical processes and terminology exist only in employees' minds. Re-explained to every new batch, every time.</p>
+                            <h4>Knowledge Stays with Individuals</h4>
+                            <p>Valuable know-how — processes, frameworks, terminology — lives in people's heads. When they are busy, that knowledge is inaccessible.</p>
                         </div>
                     </div>
                     <div class="pain-item animate-in delay-4">
                         <i class="fas fa-eye-slash"></i>
                         <div>
-                            <h4>Zero Progress Visibility</h4>
-                            <p>No objective view of where onboarding stands. Milestones go undocumented, growth goes unnoticed.</p>
+                            <h4>No Shared Visibility</h4>
+                            <p>Neither interns nor managers have a clear, objective view of where the onboarding journey stands. Progress goes unnoticed.</p>
                         </div>
                     </div>
                     <div class="pain-item animate-in delay-5">
                         <i class="fas fa-file-excel"></i>
                         <div>
-                            <h4>No Learning Record</h4>
-                            <p>Interns leave with nothing to show — no portfolio, no documented growth, no proof of skills developed.</p>
+                            <h4>Learning Goes Undocumented</h4>
+                            <p>Interns leave with skills and experience, but nothing tangible to show for it — no portfolio, no record of growth.</p>
                         </div>
                     </div>
                     <div class="pain-item animate-in delay-5">
                         <i class="fas fa-hourglass-half"></i>
                         <div>
-                            <h4>Weeks of Wasted Time</h4>
-                            <p>Every unproductive week costs stipends, employee time, and lost opportunities. ROI remains unrealized.</p>
+                            <h4>Valuable Time Slips Away</h4>
+                            <p>Weeks of potential contribution are lost to confusion and waiting. The investment in our intern program does not fully pay off.</p>
                         </div>
                     </div>
                 </div>
@@ -744,11 +762,11 @@
                 <div class="cost-highlight animate-in delay-5">
                     <div class="cost-box">
                         <div class="cost-num">~6</div>
-                        <div class="cost-label">Weeks of<br>Low Productivity</div>
+                        <div class="cost-label">Weeks of<br>Suboptimal Productivity</div>
                     </div>
                     <div class="cost-box">
                         <div class="cost-num">80%</div>
-                        <div class="cost-label">Questions Are<br>Repetitive</div>
+                        <div class="cost-label">Questions Are<br>Repetitive & Predictable</div>
                     </div>
                     <div class="cost-box">
                         <div class="cost-num">0</div>
@@ -761,10 +779,10 @@
         <!-- ===== SLIDE 2: THE SOLUTION ===== -->
         <div class="slide" id="slide2">
             <div class="slide2-inner">
-                <div class="section-label animate-in">The Solution</div>
+                <div class="section-label animate-in">How We Can Help</div>
                 <h2 class="slide2-title animate-in delay-1">InternBridge</h2>
                 <p class="slide2-subtitle animate-in delay-1">
-                    A self-service onboarding platform that transforms confused new hires into confident contributors — without adding a minute to your managers' schedules.
+                    A self-service onboarding platform that empowers interns to navigate their journey independently — so managers can focus on what they do best, while interns hit the ground running.
                 </p>
 
                 <div class="solution-layout">
@@ -772,43 +790,43 @@
                         <div class="flow-step">
                             <div class="flow-num">1</div>
                             <div class="flow-content">
-                                <h4>Manager Configures</h4>
-                                <p>Uploads knowledge, creates roadmap, defines phases — one time only</p>
+                                <h4>Manager Configures Once</h4>
+                                <p>Uploads knowledge, creates roadmap, defines phases — a one-time investment</p>
                             </div>
                         </div>
                         <div class="flow-step">
                             <div class="flow-num">2</div>
                             <div class="flow-content">
                                 <h4>Intern Logs In</h4>
-                                <p>Receives credentials, accesses personalized dashboard instantly</p>
+                                <p>Receives credentials and accesses a personalized dashboard from day one</p>
                             </div>
                         </div>
                         <div class="flow-step">
                             <div class="flow-num">3</div>
                             <div class="flow-content">
                                 <h4>Self-Guided Learning</h4>
-                                <p>Follows roadmap, explores knowledge bank, uses AI assistant</p>
+                                <p>Follows the roadmap, explores the knowledge bank, gets help from the AI assistant</p>
                             </div>
                         </div>
                         <div class="flow-step">
                             <div class="flow-num">4</div>
                             <div class="flow-content">
                                 <h4>Project Execution</h4>
-                                <p>Reviews brief, develops deliverables, submits work securely</p>
+                                <p>Reviews briefs, develops deliverables, submits work through a secure portal</p>
                             </div>
                         </div>
                         <div class="flow-step">
                             <div class="flow-num">5</div>
                             <div class="flow-content">
                                 <h4>AI Evaluation + Manager Review</h4>
-                                <p>Instant feedback generated, manager provides final assessment</p>
+                                <p>Instant feedback is generated; manager provides the final assessment</p>
                             </div>
                         </div>
                         <div class="flow-step">
                             <div class="flow-num">6</div>
                             <div class="flow-content">
                                 <h4>Documented Completion</h4>
-                                <p>Journal exported as PDF, learning summarized, internship wrapped</p>
+                                <p>Journal exported as PDF, learning summarized, internship wrapped with closure</p>
                             </div>
                         </div>
                     </div>
@@ -818,42 +836,42 @@
                             <i class="fas fa-route"></i>
                             <div>
                                 <h4>Training Roadmap</h4>
-                                <p>Structured sequence with progress tracking</p>
+                                <p>Structured sequence with clear progress tracking</p>
                             </div>
                         </div>
                         <div class="feature-row">
                             <i class="fas fa-book-open"></i>
                             <div>
                                 <h4>Knowledge Bank</h4>
-                                <p>Centralized, searchable company repository</p>
+                                <p>Centralized, searchable repository of company know-how</p>
                             </div>
                         </div>
                         <div class="feature-row">
                             <i class="fas fa-robot"></i>
                             <div>
                                 <h4>AI Assistant</h4>
-                                <p>Answers routine questions using org knowledge</p>
+                                <p>Answers routine questions using organizational knowledge</p>
                             </div>
                         </div>
                         <div class="feature-row">
                             <i class="fas fa-pen-fancy"></i>
                             <div>
                                 <h4>Learning Journal</h4>
-                                <p>Private reflection with AI summaries & PDF export</p>
+                                <p>Private reflection space with AI summaries & PDF export</p>
                             </div>
                         </div>
                         <div class="feature-row">
                             <i class="fas fa-tasks"></i>
                             <div>
                                 <h4>Project Workspace</h4>
-                                <p>Briefs, submissions, AI-generated feedback</p>
+                                <p>Briefs, submissions, and AI-generated feedback</p>
                             </div>
                         </div>
                         <div class="feature-row">
                             <i class="fas fa-chart-line"></i>
                             <div>
                                 <h4>Manager Dashboard</h4>
-                                <p>Passive visibility — no micromanagement</p>
+                                <p>Passive visibility into progress — awareness without micromanagement</p>
                             </div>
                         </div>
                     </div>
@@ -863,17 +881,17 @@
                     <div class="phase-mini phase-1">
                         <div class="phase-badge">Phase 1</div>
                         <h4>Learning Phase</h4>
-                        <p>~2 Weeks • Videos, docs, AI Q&A, journal</p>
+                        <p>~2 Weeks &bull; Videos, docs, AI Q&A, journal</p>
                     </div>
                     <div class="phase-mini phase-2">
                         <div class="phase-badge">Phase 2</div>
                         <h4>Project Phase</h4>
-                        <p>4–6 Weeks • Briefs, dev, submission, review</p>
+                        <p>4&ndash;6 Weeks &bull; Briefs, development, submission, review</p>
                     </div>
                     <div class="phase-mini phase-3">
                         <div class="phase-badge">Phase 3</div>
                         <h4>Wrap-Up Phase</h4>
-                        <p>~1 Week • Reflection, summary, PDF export</p>
+                        <p>~1 Week &bull; Reflection, summary, PDF export</p>
                     </div>
                 </div>
             </div>
@@ -882,53 +900,53 @@
         <!-- ===== SLIDE 3: THE IMPACT ===== -->
         <div class="slide" id="slide3">
             <div class="slide3-inner">
-                <div class="section-label animate-in">The Impact</div>
-                <h2 class="slide3-title animate-in delay-1">Why We Need This</h2>
+                <div class="section-label animate-in">Why This Matters for Us</div>
+                <h2 class="slide3-title animate-in delay-1">The Impact</h2>
                 <p class="slide3-subtitle animate-in delay-1">
-                    InternBridge doesn't just solve a problem — it creates measurable, lasting value for interns, managers, and the organization.
+                    InternBridge is not about replacing what we do — it is about amplifying it. Here is how every stakeholder benefits when we give our interns the structure they need.
                 </p>
 
                 <div class="impact-layout">
                     <div class="impact-card animate-in delay-2">
                         <div class="impact-header">
                             <div class="impact-icon"><i class="fas fa-user-graduate"></i></div>
-                            <h3>For Interns</h3>
+                            <h3>For Our Interns</h3>
                         </div>
                         <ul>
-                            <li><i class="fas fa-star"></i> Clear direction from Day 1</li>
-                            <li><i class="fas fa-star"></i> 24/7 access to knowledge</li>
-                            <li><i class="fas fa-star"></i> AI support when managers are busy</li>
-                            <li><i class="fas fa-star"></i> Documented learning record</li>
-                            <li><i class="fas fa-star"></i> Immediate project feedback</li>
-                            <li><i class="fas fa-star"></i> Confidence through structure</li>
+                            <li><i class="fas fa-star"></i> Clear direction from day one</li>
+                            <li><i class="fas fa-star"></i> 24/7 access to organizational knowledge</li>
+                            <li><i class="fas fa-star"></i> Support even when managers are in meetings</li>
+                            <li><i class="fas fa-star"></i> A documented learning record for their career</li>
+                            <li><i class="fas fa-star"></i> Immediate, constructive project feedback</li>
+                            <li><i class="fas fa-star"></i> Confidence through structure and clarity</li>
                         </ul>
                     </div>
                     <div class="impact-card animate-in delay-3">
                         <div class="impact-header">
                             <div class="impact-icon"><i class="fas fa-user-tie"></i></div>
-                            <h3>For Managers</h3>
+                            <h3>For Our Managers</h3>
                         </div>
                         <ul>
-                            <li><i class="fas fa-star"></i> One-time setup, zero maintenance</li>
-                            <li><i class="fas fa-star"></i> Passive visibility, no micromanagement</li>
-                            <li><i class="fas fa-star"></i> 80% fewer onboarding questions</li>
-                            <li><i class="fas fa-star"></i> Better-prepared interns</li>
-                            <li><i class="fas fa-star"></i> Scalable across larger cohorts</li>
-                            <li><i class="fas fa-star"></i> More time for strategic work</li>
+                            <li><i class="fas fa-star"></i> One-time setup, no ongoing maintenance</li>
+                            <li><i class="fas fa-star"></i> Passive visibility without micromanagement</li>
+                            <li><i class="fas fa-star"></i> 80% fewer repetitive onboarding questions</li>
+                            <li><i class="fas fa-star"></i> Better-prepared interns entering projects</li>
+                            <li><i class="fas fa-star"></i> Scalable as we grow our intern cohorts</li>
+                            <li><i class="fas fa-star"></i> More time for strategic, high-value work</li>
                         </ul>
                     </div>
                     <div class="impact-card animate-in delay-4">
                         <div class="impact-header">
                             <div class="impact-icon"><i class="fas fa-building"></i></div>
-                            <h3>For the Organization</h3>
+                            <h3>For Our Organization</h3>
                         </div>
                         <ul>
-                            <li><i class="fas fa-star"></i> Faster time-to-productivity</li>
-                            <li><i class="fas fa-star"></i> Preserved institutional knowledge</li>
-                            <li><i class="fas fa-star"></i> Consistent onboarding</li>
-                            <li><i class="fas fa-star"></i> Reduced repetitive task time</li>
-                            <li><i class="fas fa-star"></i> Stronger employer brand</li>
-                            <li><i class="fas fa-star"></i> Reusable, improving framework</li>
+                            <li><i class="fas fa-star"></i> Faster intern time-to-productivity</li>
+                            <li><i class="fas fa-star"></i> Preservation of institutional knowledge</li>
+                            <li><i class="fas fa-star"></i> Consistent onboarding across all batches</li>
+                            <li><i class="fas fa-star"></i> Reduced employee time on repetitive tasks</li>
+                            <li><i class="fas fa-star"></i> Stronger employer brand and intern satisfaction</li>
+                            <li><i class="fas fa-star"></i> A reusable framework that improves over time</li>
                         </ul>
                     </div>
                 </div>
@@ -939,11 +957,11 @@
                         <p>Routine Questions<br>Handled by AI</p>
                     </div>
                     <div class="metric-box">
-                        <h4>Weeks → Days</h4>
+                        <h4>Weeks &rarr; Days</h4>
                         <p>Onboarding<br>Acceleration</p>
                     </div>
                     <div class="metric-box">
-                        <h4>1× Setup</h4>
+                        <h4>1&times; Setup</h4>
                         <p>Reusable Across<br>All Future Batches</p>
                     </div>
                     <div class="metric-box">
@@ -953,7 +971,7 @@
                 </div>
 
                 <p class="closing-line animate-in delay-5">
-                    "From Day 1, every intern should know what to do — without anyone pausing their own work."
+                    "From day one, every intern should know what to do &mdash; without anyone having to pause their own work."
                 </p>
             </div>
         </div>
